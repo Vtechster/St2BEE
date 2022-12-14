@@ -1,0 +1,142 @@
+body {
+  background-color:#F1F6F5;
+  font-family: 'Lato', sans-serif;
+  background: url(https://images.unsplash.com/photo-1553532434-5ab5b6b84993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+}
+
+.container {
+  background-color: #82C3EC;
+  max-width: 50%;
+  /* max-height: 80%; */
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+#heading {
+  text-align: center;
+  padding-top: 20px;
+  color: #472183;
+}
+
+label {
+  margin-left: 5%;
+}
+
+input {
+  min-width: 90%;
+  margin-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  max-width: 99%;
+}
+
+.dropdown {
+  min-width: 50%;
+  margin-left: 2%;
+}
+
+.date {
+  min-width: 49%;
+  font-size: 20px;
+}
+
+#category1 {
+  margin-left: 110px;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+span {
+  font-size: 14px;
+  margin-left: 3%;
+}
+
+.task {
+  width: 120px;
+  height: 50px;
+  margin-left: 32%;
+  background-color: #472183;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.btncmplt{
+  width: 120px;
+  height: 50px;
+  display: inline-block;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 2.5%;
+  background-color: #472183;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+
+.tasks {
+  height: 350px;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  overflow-y: scroll;
+  position: relative;
+  border: 1px solid black
+}
+
+/* card styling */
+.card {
+  max-width: 97%;
+  height: 60px;
+  background-color: white;
+  margin-left: 12px;
+}
+
+.complete{
+  margin-left: 16%;
+  position: absolute;
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
+
+.remove {
+  margin-left: 42%;
+  position: absolute;
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
+
+.update {
+  position: absolute;
+  margin-left: 26%;
+  margin-top:1%;
+  text-decoration: none;
+  color: rgb(209, 66, 9);
+  font-size: 20px;
+}
+
+.dept {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(42, 25, 175);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+#comlt {
+  position: relative;
+  left: 20px;
+  top: 10px
+}
